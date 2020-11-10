@@ -8,6 +8,8 @@ RUN apt install libgl1-mesa-dev libglew-dev libsdl2-image-dev libglm-dev libfree
 
 RUN apt install freeglut3 freeglut3-dev -y
 
+RUN apt install git -y
+
 CMD [ "mkdir", "workspace"  ]
 
 WORKDIR /workspace
